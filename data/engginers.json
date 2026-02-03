@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Jhonatan 0M",
+    "phone": "7220519874",
+    "plant": "MN",
+    "email": "engines@gmail.com",
+    "password": "be47addbcb8f60566a3d7fd5a36f8195798e2848b368195d9a5d20e007c59a0c"
+  },
+  {
+    "id": 2,
+    "name": "Rick Sanchez",
+    "phone": "7226543218",
+    "plant": "FA",
+    "email": "carlos@gmail.com",
+    "password": "046ffe59ddbc352b49cabe90b35e99c6c30c0823c158f03ec3b122c6c96b7747"
+  },
+  {
+    "id": 3,
+    "name": "Jhon Cole",
+    "phone": "7598459632",
+    "plant": "FA",
+    "email": "jhon@gmail.com",
+    "password": "32f151fe5a9066941b95d8e2184127ebd668575d6acded3962aaba0206564b32"
+  }
+]  {
+    "id": 4,
+    "name": "Marcus Fenix",
+    "phone": "12354689874",
+    "plant": "MN",
+    "email": "engines@gmail.com",
+    "password": "be47addbcb8f60566a3d7fd5a36f8195798e2848b368195d9a5d20e007c59a0c"
+  }
+]  {
+    "id": 5,
+    "name": "Morty Smith",
+    "phone": "12354689874",
+    "plant": "MN",
+    "email": "engines@gmail.com",
+    "password": "be47addbcb8f60566a3d7fd5a36f8195798e2848b368195d9a5d20e007c59a0c"
+  }
+]

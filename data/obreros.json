@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "name": "Brock Garza",
+    "phone": "71536984521",
+    "plant": "MN",
+    "email": "brock@gmail.com",
+    "password": "e0bc60c82713f64ef8a57c0c40d02ce24fd0141d5cc3086259c19b1e62a62bea",
+    "machines": [
+      "Taladro",
+      "Esmeril"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Kirk Hammeth",
+    "phone": "7226543215",
+    "plant": "MN",
+    "email": "kirk@gmail.com",
+    "password": "59fefacb1435ff4908656175f679fedcde6eb4a8363d766f72c5218f36adff25",
+    "machines": [
+      "Taladro",
+      "Esmeril"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Bruce Dickinson",
+    "phone": "772221235478",
+    "plant": "MN",
+    "email": "bruce@gmail.com",
+    "password": "e0bc60c82713f64ef8a57c0c40d02ce24fd0141d5cc3086259c19b1e62a62bea",
+    "machines": [
+      "Soldadora",
+      "Esmeril",
+      "Fresadora"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Bartolo el Gallo",
+    "phone": "7134658745",
+    "plant": "MN",
+    "email": "bartolo@gmail.com",
+    "password": "410a546f0ba22fbf4355b7fb4ec7320f6d8de6a7cc5f1aa714018fe85e08683d",
+    "machines": [
+      "Esmeril"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Robert Trujillo",
+    "phone": "7121452369",
+    "plant": "MN",
+    "email": "robert@gmail.com",
+    "password": "098135035a653c4f9ed24e972f71b0e0bef25dc4e31b95572f09d8c929f202f7",
+    "machines": [
+      "Taladro",
+      "Robot 1"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Lars Ulrich",
+    "phone": "7799876541",
+    "plant": "FA",
+    "email": "ulrich@gmail.com",
+    "password": "5c92ee2684cc5836be522970a114f210f85048e6e4e489c3e8de4d0461b2acbc",
+    "machines": [
+      "Taladro de mano",
+      "Esmeril"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Dave Mustaine",
+    "phone": "7189876541",
+    "plant": "FA",
+    "email": "dave@gmail.com",
+    "password": "3d5a542d3811187a9d26ed52eaf2ab3ac09a9bbfad44ffc64a8625c6c18d3d97",
+    "machines": [
+      "Destornilladores",
+      "Esmeril"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Adrian Smith",
+    "phone": "9876543215",
+    "plant": "FA",
+    "email": "adrian@gmail.com",
+    "password": "113a75f9a6ae0b183767984105bf06794e1af9bf7ba269598acd132a7ebed873",
+    "machines": [
+      "Taladro de piso",
+      "Esmeril"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Carlos Perez",
+    "phone": "9876543216",
+    "plant": "MN",
+    "email": "carlos@gmail.com",
+    "password": "49bfb8998b3fabca7428df603bb2b263e099ce2959e96207669eeab330b85bbc",
+    "machines": [
+      "Torno",
+      "Fresadora"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Lucia Gomez",
+    "phone": "9876543217",
+    "plant": "FA",
+    "email": "lucia@gmail.com",
+    "password": "ec061fafb777f2943027f2deb3c17961556c386cad45065f343a74aea1177ad0",
+    "machines": [
+      "Taladro manual",
+      "Pulidora"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Miguel Torres",
+    "phone": "9876543218",
+    "plant": "FA",
+    "email": "miguel@gmail.com",
+    "password": "a4bd1d3a69aa0ea6ffb1298c8c26be4b333526cae7d27f2362f89857157701ce",
+    "machines": [
+      "Soldadora",
+      "Cizalla"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Ana Ruiz",
+    "phone": "9876543219",
+    "plant": "MN",
+    "email": "ana@gmail.com",
+    "password": "e07198ba050a32495f45e76e102a28e9b062828bf7a51fd8ed4462f53e0205d9",
+    "machines": [
+      "Compresor",
+      "Lijadora"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Jorge Medina",
+    "phone": "9876543220",
+    "plant": "FA",
+    "email": "jorge@gmail.com",
+    "password": "f59e28f8bb6499ddf0521ed7a60aeda00957aeb7ee605caf17a216f7a9a26d08",
+    "machines": [
+      "Torno CNC",
+      "Taladro de banco"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Paula Castro",
+    "phone": "9876543221",
+    "plant": "MN",
+    "email": "paula@gmail.com",
+    "password": "d599668f93b812a8723f7b684b39f28b55a6750f79deb918c3190f8b48342e0d",
+    "machines": [
+      "Pulidora",
+      "Esmeril"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Diego Navarro",
+    "phone": "9876543222",
+    "plant": "FA",
+    "email": "diego@gmail.com",
+    "password": "9be302ff7ed8dcad748291f623d3bc597fa155f2817db628c5eee592396458c2",
+    "machines": [
+      "Prensa hidráulica",
+      "Sierra"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Sofia Herrera",
+    "phone": "9876543223",
+    "plant": "FA",
+    "email": "sofia@gmail.com",
+    "password": "6a61eb7383e868f226d30d31c95348371760d993de5a098747a36923bdcaf25c",
+    "machines": [
+      "Taladro de piso",
+      "Lijadora orbital"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Fernando Rojas",
+    "phone": "9876543224",
+    "plant": "FA",
+    "email": "fernando@gmail.com",
+    "password": "d1637253d0d2012a241872d4f70d65813e6bbc6270e8835ae6918084321ff1a9",
+    "machines": [
+      "Soldadora MIG",
+      "Amoladora"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Valeria Molina",
+    "phone": "9876543225",
+    "plant": "FA",
+    "email": "valeria@gmail.com",
+    "password": "5b0e1ceb3173b8ff0de2a262df2abaa0d403bfaea700f399f82a4c9f7226398b",
+    "machines": [
+      "Cortadora láser",
+      "Compresor"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Brock Lesnas",
+    "phone": "9876543215",
+    "plant": "MN",
+    "email": "lesnas@gmail.com",
+    "password": "b3282a2f2a28757b3a18ab833de16a9c54518c0b0cf493e3f0a7cf09386f326a",
+    "machines": [
+      "Taladro",
+      "Esmeril"
+    ]
+  }
+, {
+    "id": 20,
+    "name": "Jerry Smith",
+    "phone": "71536984521",
+    "plant": "MN",
+    "email": "jerrysmith@gmail.com",
+    "password": "2ef6db79ecfc8ab428cbad9d6acf3c11ae21da7c59df3520e16e296682b947ce",
+    "machines": [
+      "Cortador",
+      "Esmeril"
+    ]
+  }
+]

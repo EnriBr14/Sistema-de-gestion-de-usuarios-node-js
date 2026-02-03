@@ -1,0 +1,18 @@
+[
+  {
+    "id": 0,
+    "name": "James Hetflield",
+    "phone": "9876543214",
+    "plant": "MN",
+    "email": "bluec@gmail.com",
+    "password": "ea2bb675e02d40df8bc42e48171093fa05a720eaf816119360b427a08d920f3e"
+  },
+  {
+    "id": 1,
+    "name": "Blue Garcia",
+    "phone": "7226661122",
+    "plant": "FA",
+    "email": "james@gmail.com",
+    "password": "c6b1470c3782da7f421d049f5f7214180afb697ee0affeb58bbc9ed2693725ee"
+  }
+]
