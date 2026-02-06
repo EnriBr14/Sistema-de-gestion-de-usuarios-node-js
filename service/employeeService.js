@@ -73,14 +73,11 @@ async function save(empleado){
                 obreroRepo.saveAll(obreros)
 
                 //guardar dependiendo de a que equipo pertencen y que supervisor esta a cargo
-                //Rojos, Blancos, Azules, Negros y verdes
-                //James Hetflield
-                //Blue Garcia
+                //
+                //James Hetflield-Rojos, Blancos, Azules,
+                //Blue Garcia - Negros y verdes
 
-                let equipo = empleado.teamsWork
-                if(equipo === "Rojos"){
 
-                }
 
 
 
@@ -150,27 +147,44 @@ async function changePassword(ema,oldPassword,newPassword, confirm){
 
 
 //----------------Mostrar por campo
-function showBy(job){
+async function showBy(job){
+    console.log("Entra funcion------------------")
     if(job === "Enginners"){
         console.log("Datos Solicitados...")
-        enginnerRepo.findAll()
+      await enginnerRepo.findAll()
     }
     else if(job === "Supervisor"){
         console.log("Datos Solicitados...")
-        supersivorRepo.findAll()
+        await supersivorRepo.findAll()
     }
     else if(job === "Obreros"){
         console.log("Datos Solicitados...")
-        obreroRepo.findAll()
+        await obreroRepo.findAll()
     }
+}
+//Mostrar por equipo
+async function showByTeams(equipo){
+    //Mostrar que integrantes tiene cada equipo
+    //let datos = await [obreroRepo.findAll()]
+
+    obreros.forEach(data => {
+
+        if(data.teamWork === equipo){
+            console.table(data.getName() + " " + data.teamWork)
+            //console.table(data,['name', 'team'])
+        }
+
+    })
+
 }
 
 
-//-------------------------------
+
 module.exports = {
     save,
     changePassword,
     showBy,
+    showByTeams,
 
 }
 
