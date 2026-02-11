@@ -30,6 +30,7 @@ class Employ {
             plant: this.#plant,
             email: this.email,
             password: this.#password,
+            money: this.#money
         }
     }
 
@@ -77,6 +78,9 @@ class Employ {
     setPassword(password) {
         this.#password = password
     }
+
+    getMoney(){return this.#money}
+    setMoney(money) {this.#money = money}
 
 
 }

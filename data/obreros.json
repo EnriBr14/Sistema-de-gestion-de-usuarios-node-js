@@ -6,6 +6,8 @@
     "plant": "MN",
     "email": "brock@gmail.com",
     "password": "e0bc60c82713f64ef8a57c0c40d02ce24fd0141d5cc3086259c19b1e62a62bea",
+    "money": "2100",
+    "teamWork": "Rojos",
     "machines": [
       "Taladro",
       "Esmeril"
@@ -18,6 +20,8 @@
     "plant": "MN",
     "email": "kirk@gmail.com",
     "password": "59fefacb1435ff4908656175f679fedcde6eb4a8363d766f72c5218f36adff25",
+    "money": "2500",
+    "teamWork": "Rojos",
     "machines": [
       "Taladro",
       "Esmeril"
@@ -30,6 +34,8 @@
     "plant": "MN",
     "email": "bruce@gmail.com",
     "password": "e0bc60c82713f64ef8a57c0c40d02ce24fd0141d5cc3086259c19b1e62a62bea",
+    "money": "2100",
+    "teamWork": "verdes",
     "machines": [
       "Soldadora",
       "Esmeril",
@@ -43,6 +49,8 @@
     "plant": "MN",
     "email": "bartolo@gmail.com",
     "password": "410a546f0ba22fbf4355b7fb4ec7320f6d8de6a7cc5f1aa714018fe85e08683d",
+    "money": "1800",
+    "teamWork": "Rojos",
     "machines": [
       "Esmeril"
     ]
@@ -54,6 +62,8 @@
     "plant": "MN",
     "email": "robert@gmail.com",
     "password": "098135035a653c4f9ed24e972f71b0e0bef25dc4e31b95572f09d8c929f202f7",
+    "money": "2100",
+    "teamWork": "verdes",
     "machines": [
       "Taladro",
       "Robot 1"
@@ -66,6 +76,8 @@
     "plant": "FA",
     "email": "ulrich@gmail.com",
     "password": "5c92ee2684cc5836be522970a114f210f85048e6e4e489c3e8de4d0461b2acbc",
+    "money": "2100",
+    "teamWork": "Negros",
     "machines": [
       "Taladro de mano",
       "Esmeril"
@@ -78,6 +90,8 @@
     "plant": "FA",
     "email": "dave@gmail.com",
     "password": "3d5a542d3811187a9d26ed52eaf2ab3ac09a9bbfad44ffc64a8625c6c18d3d97",
+    "money": "2400",
+    "teamWork": "Negros",
     "machines": [
       "Destornilladores",
       "Esmeril"
@@ -90,6 +104,8 @@
     "plant": "FA",
     "email": "adrian@gmail.com",
     "password": "113a75f9a6ae0b183767984105bf06794e1af9bf7ba269598acd132a7ebed873",
+    "money": "2300",
+    "teamWork": "Azules",
     "machines": [
       "Taladro de piso",
       "Esmeril"
@@ -102,6 +118,8 @@
     "plant": "MN",
     "email": "carlos@gmail.com",
     "password": "49bfb8998b3fabca7428df603bb2b263e099ce2959e96207669eeab330b85bbc",
+    "money": "2500",
+    "teamWork": "Rojos",
     "machines": [
       "Torno",
       "Fresadora"
@@ -114,6 +132,8 @@
     "plant": "FA",
     "email": "lucia@gmail.com",
     "password": "ec061fafb777f2943027f2deb3c17961556c386cad45065f343a74aea1177ad0",
+    "money": "2100",
+    "teamWork": "Verdes",
     "machines": [
       "Taladro manual",
       "Pulidora"
@@ -126,6 +146,8 @@
     "plant": "FA",
     "email": "miguel@gmail.com",
     "password": "a4bd1d3a69aa0ea6ffb1298c8c26be4b333526cae7d27f2362f89857157701ce",
+    "money": "2800",
+    "teamWork": "Azules",
     "machines": [
       "Soldadora",
       "Cizalla"
@@ -138,6 +160,8 @@
     "plant": "MN",
     "email": "ana@gmail.com",
     "password": "e07198ba050a32495f45e76e102a28e9b062828bf7a51fd8ed4462f53e0205d9",
+    "money": "2400",
+    "teamWork": "Negros",
     "machines": [
       "Compresor",
       "Lijadora"
@@ -150,6 +174,8 @@
     "plant": "FA",
     "email": "jorge@gmail.com",
     "password": "f59e28f8bb6499ddf0521ed7a60aeda00957aeb7ee605caf17a216f7a9a26d08",
+    "money": "3000",
+    "teamWork": "Negros",
     "machines": [
       "Torno CNC",
       "Taladro de banco"
@@ -162,6 +188,8 @@
     "plant": "MN",
     "email": "paula@gmail.com",
     "password": "d599668f93b812a8723f7b684b39f28b55a6750f79deb918c3190f8b48342e0d",
+    "money": "2200",
+    "teamWork": "Blancos",
     "machines": [
       "Pulidora",
       "Esmeril"
@@ -174,6 +202,8 @@
     "plant": "FA",
     "email": "diego@gmail.com",
     "password": "9be302ff7ed8dcad748291f623d3bc597fa155f2817db628c5eee592396458c2",
+    "money": "2600",
+    "teamWork": "Blancos",
     "machines": [
       "Prensa hidráulica",
       "Sierra"
@@ -186,6 +216,8 @@
     "plant": "FA",
     "email": "sofia@gmail.com",
     "password": "6a61eb7383e868f226d30d31c95348371760d993de5a098747a36923bdcaf25c",
+    "money": "2350",
+    "teamWork": "Rojos",
     "machines": [
       "Taladro de piso",
       "Lijadora orbital"
@@ -198,6 +230,8 @@
     "plant": "FA",
     "email": "fernando@gmail.com",
     "password": "d1637253d0d2012a241872d4f70d65813e6bbc6270e8835ae6918084321ff1a9",
+    "money": "2900",
+    "teamWork": "Azules",
     "machines": [
       "Soldadora MIG",
       "Amoladora"
@@ -210,6 +244,8 @@
     "plant": "FA",
     "email": "valeria@gmail.com",
     "password": "5b0e1ceb3173b8ff0de2a262df2abaa0d403bfaea700f399f82a4c9f7226398b",
+    "money": "2450",
+    "teamWork": "Blancos",
     "machines": [
       "Cortadora láser",
       "Compresor"
@@ -222,18 +258,22 @@
     "plant": "MN",
     "email": "lesnas@gmail.com",
     "password": "b3282a2f2a28757b3a18ab833de16a9c54518c0b0cf493e3f0a7cf09386f326a",
+    "money": "2100",
+    "teamWork": "Rojos",
     "machines": [
       "Taladro",
       "Esmeril"
     ]
-  }
-, {
+  },
+  {
     "id": 20,
     "name": "Jerry Smith",
     "phone": "71536984521",
     "plant": "MN",
     "email": "jerrysmith@gmail.com",
     "password": "2ef6db79ecfc8ab428cbad9d6acf3c11ae21da7c59df3520e16e296682b947ce",
+    "money": "2100",
+    "teamWork": "Rojos",
     "machines": [
       "Cortador",
       "Esmeril"

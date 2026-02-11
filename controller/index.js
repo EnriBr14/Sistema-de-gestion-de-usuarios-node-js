@@ -11,6 +11,7 @@ const Service = require('../Service/employeeService');
 const  crypto = require('crypto');
 //Repositorios
 const repoEngine = require('../Repositories/enginnerRepository')
+const {showBy, showByTeams} = require("../service/employeeService");
 //Ingenieros
 const e1 = new Engginer(
     {id: 1,position: "Engginer",name: "Jhonatan 0M",phone:"7220519874", plant:"MN", email:"engines@gmail.com",
@@ -47,11 +48,11 @@ Service.save(e5)
 //------------------------Supervosires
 const s1 = new Supervisor(
    {id: 0,name: "James Hetflield",phone: "9876543214", plant: "MN", email: "bluec@gmail.com",
-       password:"cumpleanos",money: "20000", teams: []}
+       password:"cumpleanos",money: "20000", teams: ["Rojos","Azules","Blancos"]}
 )
 const s2 = new Supervisor(
     {id: 1,name: "Blue Garcia",phone: "7226661122", plant: "FA", email: "james@gmail.com",
-        password:"diazero",money: "25000", teams: []}
+        password:"diazero",money: "25000", teams: ["Negros","Verdes"]}
 )
 
 Service.save(s1)
@@ -178,9 +179,9 @@ Service.save(o20)
 
 const a1 = new Admin({idAdmin: 1,nameAdmin: "Sergio", emailAdmin: "serg@gmail.com", passw:"1234",area:"TI"})
 
-console.table(e1)
-Service.save(e1)
-
+//console.table(e1)
+//Service.save(e1)
+/*
 
 function hashPassword(password) {
     return crypto.createHash('sha256').update(password).digest('hex');
@@ -206,15 +207,20 @@ if (hashIngresado === hashGuardado) {
 }
 
 console.log("Cambio de con trsseña")
+*/
 
-Service.changePassword("engines@gmail.com","145", "perro",true)
-console.log("Contraasña new-------------------------------------------")
+//---------------Funciones----------------
+//Service.changePassword("engines@gmail.com","145", "perro",true)
+//console.log("Contraasña new-------------------------------------------")
 //e1.getPassword()
 
 //Enginners
 //Supervisor
 //Obreros
+//Service.showBy("Enginners")
 
+Service.consultaSoO(showByTeams,"Rojos")
+Service.showByTeams("Rojos")
 
 
 

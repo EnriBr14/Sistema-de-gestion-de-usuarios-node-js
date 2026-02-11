@@ -26,7 +26,7 @@ function passCrypto(password) {
     return crypto.createHash('sha256').update(password).digest('hex');
 }
 //----------------------------------------------------------------------------------------
-//Guardar usuario dependiendo si son ingenieros, obreros, supervvisores y administrados del sistema
+//Guardar usuario dependiendo si son ingenieros, obreros, supervisores y administrados del sistema
 async function save(empleado){
     //Guardar eniggner
     try{
@@ -51,9 +51,7 @@ async function save(empleado){
         }
         //Guardar un supervisor
         else if(empleado instanceof Supervisor){
-            console.log("Esta es una instancia de supervsor-----------------------")
             let validarEmpleado = supervisors.some(superv => superv.getName() === empleado.getName())
-            console.log("Pasoi la validacion")
             if(validarEmpleado){
                 console.log("Este empleado ya esta registrado")
             }else{
@@ -71,20 +69,6 @@ async function save(empleado){
                 empleado.setPassword(passCrypto(empleado.getPassword()))
                 obreros.push(empleado)
                 obreroRepo.saveAll(obreros)
-
-                //guardar dependiendo de a que equipo pertencen y que supervisor esta a cargo
-                //
-                //James Hetflield-Rojos, Blancos, Azules,
-                //Blue Garcia - Negros y verdes
-
-
-
-
-
-
-
-
-
             }
 
         }else if (empleado instanceof Admini){
@@ -146,9 +130,9 @@ async function changePassword(ema,oldPassword,newPassword, confirm){
 }
 
 
-//----------------Mostrar por campo
+//----------------Mostrar por campo------------------------------------------------------------------
 async function showBy(job){
-    console.log("Entra funcion------------------")
+
     if(job === "Enginners"){
         console.log("Datos Solicitados...")
       await enginnerRepo.findAll()
@@ -162,22 +146,23 @@ async function showBy(job){
         await obreroRepo.findAll()
     }
 }
-//Mostrar por equipo
-async function showByTeams(equipo){
+//Mostrar por equipo--------------------------------------------------------------------------
+function showByTeams(equipo){
     //Mostrar que integrantes tiene cada equipo
-    //let datos = await [obreroRepo.findAll()]
-
+    console.log(`Equipo solicitado ${equipo}`)
     obreros.forEach(data => {
 
         if(data.teamWork === equipo){
-            console.table(data.getName() + " " + data.teamWork)
-            //console.table(data,['name', 'team'])
+            console.table(data.getName() + " - " + data.getPlant() + " - " + data.machines )
         }
-
     })
-
+    console.log("Este equipo no esta registrado")
 }
 
+async function consultaSoO(callback,parametro){
+    let  data = await callback(parametro)
+    console.log(data)
+}
 
 
 module.exports = {
@@ -185,6 +170,7 @@ module.exports = {
     changePassword,
     showBy,
     showByTeams,
+    consultaSoO,
 
 }
 

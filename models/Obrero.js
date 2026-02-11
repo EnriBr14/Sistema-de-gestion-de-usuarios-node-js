@@ -13,7 +13,7 @@ class Obrero extends Employ{
     toJSON(){
         return {
             ...super.toJSON(),
-            teamsWork: this.teams,
+            teamWork: this.teamWork,
             machines: this.machines,
         }
     }
