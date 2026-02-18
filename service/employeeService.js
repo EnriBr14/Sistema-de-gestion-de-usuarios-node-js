@@ -72,11 +72,11 @@ async function save(empleado){
             }
 
         }else if (empleado instanceof Admini){
-            let validarEmpleado = admins.some(admin => admin.getName() === empleado.getName())
+            let validarEmpleado = admins.some(admin => admin.nameAdmin === empleado.nameAdmin)
             if(validarEmpleado){
                 console.log("Este empleado ya esta registrado")
             }else{
-             empleado.setPassword(passCrypto(empleado.getPassword()))
+             empleado.setPassw(passCrypto(empleado.getPassw()))
              admins.push(empleado)
              adminRepo.saveAll(admins)
             }
@@ -146,6 +146,37 @@ async function showBy(job){
         await obreroRepo.findAll()
     }
 }
+//-----------Mostrar obreros por supervisor--------------------------------------
+function obrerosXsupervisor(supervisor){
+    //Validar que el supervisor que estamos buscando exista
+    console.log("Entra a validacion")
+    let validar = supervisors.some(sup => sup.getName() === supervisor)
+    console.log("Pasa la validacion")
+    console.log(validar)
+    //Si valida estonces vamos a mostrar los datos
+    if(validar){
+        console.log("Entra al if")
+        supervisors.forEach(
+            data => {
+                console.log("Entra a la data de sup")
+                //console.log(data.getName())
+
+
+                obreros.forEach(obrerado => {
+                    //console.log(`datos del sup eqiupos  ${obrerado.teamWork}`)
+                    let equipos = data.teams
+                    console.log(equipos)
+                  if(equipos === obrerado.teamWork){
+                      console.log("Ultimo if")
+                      console.log(obrerado + " "+ data)
+
+                  }
+                })
+            }
+        )
+    }
+}
+
 //Mostrar por equipo--------------------------------------------------------------------------
 function showByTeams(equipo){
     //Mostrar que integrantes tiene cada equipo
@@ -164,6 +195,33 @@ async function consultaSoO(callback,parametro){
     console.log(data)
 }
 
+function enterSystem(email,password){
+    //Verificar la existencia de administrador
+    //Validar que existe en el registro
+    console.log("Entrando al sistema...")
+    console.log("Solicitando datos")
+    let validacion = admins.some(admi => admi.emailAdmin === email)
+    if(validacion){
+        console.log("Correo verificado...")
+        console.log("Contraseña verificada...")
+        let hashPass = passCrypto(password)
+        let usuario = admins.find(admin => admin.emailAdmin === email)
+        if(hashPass === usuario.getPassw()){
+            console.log("Contraseña proporcionada es correcta")
+        }else{
+            console.log("Las contrañas no coinciden")
+        }
+    }else{
+        console.log("El correo propocionado no esta registrado: " + email)
+    }
+
+
+
+
+
+
+
+}
 
 module.exports = {
     save,
@@ -171,7 +229,10 @@ module.exports = {
     showBy,
     showByTeams,
     consultaSoO,
+    obrerosXsupervisor,
+    enterSystem,
 
 }
+
 
 

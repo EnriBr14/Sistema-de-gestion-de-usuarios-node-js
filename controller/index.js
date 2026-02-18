@@ -9,8 +9,10 @@ const Obrero = require('../models/Obrero.js');
 //--------------------------------------------------------------------------
 const Service = require('../Service/employeeService');
 const  crypto = require('crypto');
+
 //Repositorios
 const repoEngine = require('../Repositories/enginnerRepository')
+
 const {showBy, showByTeams} = require("../service/employeeService");
 //Ingenieros
 const e1 = new Engginer(
@@ -172,15 +174,14 @@ Service.save(o19)
 Service.save(o20)
 
 
-
-
-
-
-
-const a1 = new Admin({idAdmin: 1,nameAdmin: "Sergio", emailAdmin: "serg@gmail.com", passw:"1234",area:"TI"})
-
+//Administradores
+const a1 = new Admin({idAdmin: 1,nameAdmin: "Serch", emailAdmin: "serg@gmail.com", passw:"1234",area:"TI"})
+const a2 = new Admin({idAdmin: 2,nameAdmin: "Cgakes", emailAdmin: "charles@gmail.com", passw:"12345",area:"TI"})
+Service.save(a2)
+Service.save(a1)
 //console.table(e1)
 //Service.save(e1)
+//_---------------------------------------------------------------------------------------------------
 /*
 
 function hashPassword(password) {
@@ -208,7 +209,7 @@ if (hashIngresado === hashGuardado) {
 
 console.log("Cambio de con trsseña")
 */
-
+//-------------------------------------------------------------------------------------------------
 //---------------Funciones----------------
 //Service.changePassword("engines@gmail.com","145", "perro",true)
 //console.log("Contraasña new-------------------------------------------")
@@ -219,8 +220,13 @@ console.log("Cambio de con trsseña")
 //Obreros
 //Service.showBy("Enginners")
 
-Service.consultaSoO(showByTeams,"Rojos")
-Service.showByTeams("Rojos")
+//Service.consultaSoO(showByTeams,"Rojos")
+//Service.showByTeams("")
+console.log("Mostrar opbreos por supervisor")
+Service.obrerosXsupervisor("James Hetflield")
+
+Service.enterSystem( "charles@gmail.com","12345")
+
 
 
 

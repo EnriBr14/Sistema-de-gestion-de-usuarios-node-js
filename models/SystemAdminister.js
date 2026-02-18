@@ -8,23 +8,8 @@ class AdminiSystem {
         this.area = area;
     }
 
-    getPass(){return this.#passw }
-    setPass(newPass, confirm){
-        if(newPass === this.#passw){
-            console.info("La contraseña propocionada es la misma");
-        }else if(newPass != this.#passw){
-            console.log("Aceptas cambiar la constraseña?")
-            if(confirm){
-                console.log("La contraseña se guardo con exito")
-                this.#passw = newPass;
-            }else{
-                console.log("Cerrando proceso")
-            }
-        }else{
-            console.log("Operacion no valida")
-        }
-    }
-
+    getPassw(){return this.#passw;}
+    setPassw(password){this.#passw = password;}
 }
 
 
